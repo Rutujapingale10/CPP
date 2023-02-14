@@ -1,0 +1,23 @@
+Class has only one instance and provides global point of access that instance.
+
+-Requirements -
+*One and only one instance
+*Global access
+*No ownership - object is freely floating and anyone can use it.
+*Lazy initialization
+
+-Advantages
+*save memory - Only one is required so why to create many
+*single access point-logger, database connection
+*Flexibility- change anytime you want to
+
+Usage-
+*Multithreading - thread pool
+*database - logger
+*configuration setting - game setting , application setting etc.
+
+To create singleton class we must have - 
+*private static member-
+*private constructor - // so that user can't create multiple obj
+*public static function - 
+  
