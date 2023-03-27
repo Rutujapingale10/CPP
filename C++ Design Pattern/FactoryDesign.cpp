@@ -45,7 +45,8 @@ class vehicleFactory{
 					cout<<"Wrong choice"<<endl;
 				}
 	
-				vehicle->createVehicle();
+				return vehicle;
+		      
 		  	
 		}	
 };
@@ -56,6 +57,7 @@ int main()
 	cout<<"Enter type"<<endl;
 	cin>>vehicleType;
 	Vehicle* vehicle=vehicleFactory::getVehicle(vehicleType);
+	vehicle->createVehicle();
 }
 
 
