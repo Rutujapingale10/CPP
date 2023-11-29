@@ -58,6 +58,7 @@ int main()
 	cin>>vehicleType;
 	Vehicle* vehicle=vehicleFactory::getVehicle(vehicleType);
 	vehicle->createVehicle();
+	return 0;
 }
 
 
