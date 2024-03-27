@@ -53,7 +53,7 @@ class GameSetting{
 		} 	
 		int getWidth()
 		{
-			return _height;
+			return _widht;
 					 
 		}
 		
